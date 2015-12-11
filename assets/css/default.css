@@ -8,7 +8,7 @@
 }
 .ajax-loading-overlay {
     position: absolute;
-    z-index: 1999;
+    z-index: 799;
     left: 0;
     right: 0;
     top: 0;
@@ -45,4 +45,14 @@
 }
 .light-orange {
     color: #fcac6f!important
+}
+.alert-box {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 8999;
+}
+.alert {
+    margin-bottom: 2px;
+    text-align: center;
 }
